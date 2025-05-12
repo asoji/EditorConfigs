@@ -1,0 +1,27 @@
+{
+  "workbench.productIconTheme": "fluent-icons",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.accessibilitySupport": "off",
+  "editor.suggestSelection": "first",
+  "editor.wordWrap": "bounded",
+  "diffEditor.wordWrap": "on",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "workbench.colorTheme": "Github Light Theme",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "editor.formatOnType": false,
+  "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
+  "editor.fontSize": 13,
+  "editor.fontLigatures": true,
+  "editor.letterSpacing": 0.4,
+  "editor.wordWrapColumn": 320,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "chat.commandCenter.enabled": false,
+}
