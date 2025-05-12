@@ -1,0 +1,9 @@
+{
+    "theme": "light",
+    "editor.indentStyle": "Tabs",
+    "aiCompletion.enabled": false,
+    "completion.inline.highlighting.enabled": false,
+    "editor.showFloatingDebugPanel": true,
+    "collaboration.displayName": "asoji",
+    "warn.before.quitting": true,
+}
