@@ -9,8 +9,8 @@
 {
   "icon_theme": "JetBrains New UI Icons (Light)", // the funny
   "base_keymap": "JetBrains", // the funny
-  "ui_font_size": 16,
-  "buffer_font_size": 16,
+  "ui_font_size": 14,
+  "buffer_font_size": 14,
   "theme": {
     "mode": "system",
     "light": "Fleet Light", // the funny
@@ -25,5 +25,10 @@
   "autoscroll_on_clicks": true,
   "buffer_font_family": "JetBrainsMono Nerd Font", // the funny
   "confirm_quit": true,
-  "show_edit_predictions": false // go awayyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+  "show_edit_predictions": false, // go awayyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+  "languages": {
+    "Swift": {
+      "language_servers": ["sourcekit-lsp", "package-swift-lsp"]
+    }
+  }
 }
