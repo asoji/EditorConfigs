@@ -7,6 +7,9 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "git_panel": {
+    "dock": "right"
+  },
   "disable_ai": true,
   "ui_font_family": "JetBrainsMonoNL NF",
   "inlay_hints": {
@@ -32,7 +35,8 @@
   "buffer_font_size": 14,
   "theme": {
     "mode": "light",
-    "light": "Fleet Light" // the funny
+    "light": "Fleet Light", // the funny
+    "dark": "Fleet Dark"
   },
   "autosave": {
     "after_delay": {
@@ -49,7 +53,8 @@
       "language_servers": ["sourcekit-lsp", "package-swift-lsp"]
     }
   },
-  "lsp": { // drpc doesnt work by default on windows so i just copy pasted the default config from the repo's README.md, and it works now :sakaShrug:
+  "lsp": {
+    // drpc doesnt work by default on windows so i just copy pasted the default config from the repo's README.md, and it works now :sakaShrug:
     "discord_presence": {
       "initialization_options": {
         "application_id": "1263505205522337886",
@@ -73,7 +78,7 @@
           "small_image": "{base_icons_url}/idle.png",
           "small_text": "Idle"
         },
-        
+
         "git_integration": true
       }
     }
