@@ -7,6 +7,12 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "ssh_connections": [
+    {
+      "host": "peridotv3",
+      "args": ["-i", "~/.ssh/config"]
+    }
+  ],
   "git_panel": {
     "dock": "right"
   },
@@ -29,7 +35,7 @@
       "function": false
     }
   },
-  "icon_theme": "JetBrains New UI Icons (Light)", // the funny
+  "icon_theme": "JetBrains Icons Light", // the funny
   "base_keymap": "JetBrains", // the funny
   "ui_font_size": 14,
   "buffer_font_size": 14,
@@ -82,5 +88,11 @@
         "git_integration": true
       }
     }
+  },
+  "calls": {
+    // Join calls with the microphone live by default
+    "mute_on_join": true,
+    // Share your project when you are the first to join a channel
+    "share_on_join": true
   }
 }
